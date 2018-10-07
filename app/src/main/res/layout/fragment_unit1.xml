@@ -205,6 +205,206 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Central Processing Unity" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Central Processing United" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Central Processing Unit" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Central Programming Unit" />
+
+
+            </RadioGroup>
+
+            <!--Group Item-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="3. Match the names of digital devices with the pictures."
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/padding8">
+
+                <!--Row1-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <!--Col1-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding4">
+
+                        <!--Icon-->
+                        <ImageView
+                            android:src="@drawable/item1"
+                            android:scaleType="centerInside"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/icon" />
+
+                        <!--Spinner-->
+                        <Spinner
+                            android:id="@+id/spinnerItem1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <!--Col2-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding4">
+
+                        <!--Icon-->
+                        <ImageView
+                            android:src="@drawable/item2"
+                            android:scaleType="centerInside"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/icon" />
+
+                        <!--Spinner-->
+                        <Spinner
+                            android:id="@+id/spinnerItem2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <!--Col3-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding4">
+
+                        <!--Icon-->
+                        <ImageView
+                            android:src="@drawable/item3"
+                            android:scaleType="centerInside"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/icon" />
+
+                        <!--Spinner-->
+                        <Spinner
+                            android:id="@+id/spinnerItem3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!--Row2-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <!--Col4-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding4">
+
+                        <!--Icon-->
+                        <ImageView
+                            android:src="@drawable/item4"
+                            android:scaleType="centerInside"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/icon" />
+
+                        <!--Spinner-->
+                        <Spinner
+                            android:id="@+id/spinnerItem4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <!--Col5-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding4">
+
+                        <!--Icon-->
+                        <ImageView
+                            android:src="@drawable/item5"
+                            android:scaleType="centerInside"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/icon" />
+
+                        <!--Spinner-->
+                        <Spinner
+                            android:id="@+id/spinnerItem5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <!--Col6-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding4">
+
+                        <!--Icon-->
+                        <ImageView
+                            android:src="@drawable/itme6"
+                            android:scaleType="centerInside"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/icon" />
+
+                        <!--Spinner-->
+                        <Spinner
+                            android:id="@+id/spinnerItem6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
 
         </LinearLayout>
 

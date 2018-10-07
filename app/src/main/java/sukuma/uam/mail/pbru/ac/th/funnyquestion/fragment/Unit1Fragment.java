@@ -45,8 +45,78 @@ public class Unit1Fragment extends Fragment {
 //        Answer4 Controller
         answer4Controller();
 
+        item1Spinner();
+        item2Spinner();
+        item3Spinner();
+        item4Spinner();
+        item5Spinner();
+        item6Spinner();
+
 
     }   // Main Method
+
+    private void item1Spinner() {
+
+        Spinner spinner = getView().findViewById(R.id.spinnerItem1);
+        String[] strings = myConstant.getChoiceSpinnerItemStrings();
+        ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
+                android.R.layout.simple_list_item_1, strings);
+        spinner.setAdapter(stringArrayAdapter);
+
+    }
+
+    private void item2Spinner() {
+
+        Spinner spinner = getView().findViewById(R.id.spinnerItem2);
+        String[] strings = myConstant.getChoiceSpinnerItemStrings();
+        ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
+                android.R.layout.simple_list_item_1, strings);
+        spinner.setAdapter(stringArrayAdapter);
+
+    }
+
+    private void item3Spinner() {
+
+        Spinner spinner = getView().findViewById(R.id.spinnerItem3);
+        String[] strings = myConstant.getChoiceSpinnerItemStrings();
+        ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
+                android.R.layout.simple_list_item_1, strings);
+        spinner.setAdapter(stringArrayAdapter);
+
+    }
+
+    private void item4Spinner() {
+
+        Spinner spinner = getView().findViewById(R.id.spinnerItem4);
+        String[] strings = myConstant.getChoiceSpinnerItemStrings();
+        ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
+                android.R.layout.simple_list_item_1, strings);
+        spinner.setAdapter(stringArrayAdapter);
+
+    }
+
+    private void item5Spinner() {
+
+        Spinner spinner = getView().findViewById(R.id.spinnerItem5);
+        String[] strings = myConstant.getChoiceSpinnerItemStrings();
+        ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
+                android.R.layout.simple_list_item_1, strings);
+        spinner.setAdapter(stringArrayAdapter);
+
+    }
+
+    private void item6Spinner() {
+
+        Spinner spinner = getView().findViewById(R.id.spinnerItem6);
+        String[] strings = myConstant.getChoiceSpinnerItemStrings();
+        ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
+                android.R.layout.simple_list_item_1, strings);
+        spinner.setAdapter(stringArrayAdapter);
+
+    }
+
+
+
 
     private void answer4Controller() {
         EditText editText = getView().findViewById(R.id.edtAnswer);
