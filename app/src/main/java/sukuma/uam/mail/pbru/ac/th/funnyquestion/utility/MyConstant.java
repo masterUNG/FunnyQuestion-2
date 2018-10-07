@@ -28,7 +28,7 @@ public class MyConstant {
             "To play a game",
             "xxx",
             "Playing games",
-            "xxx" };
+            "xxx"};
     private String[] choiceSpinner2Strings = new String[]{
             "2)..............",
             "Playing computer games",
@@ -53,7 +53,20 @@ public class MyConstant {
             "xxx",
             "xxx",
             "xxx",
-            "Buy things" };
+            "Buy things"};
+
+    private String[] choiceSpinner4Strings = new String[]{
+            "..............",
+            "Input devices",
+            "Output devices",
+            "System unit",
+            "Storage devices",
+            "Communication devices",
+            "xxx",
+            "xxx",
+            "xxx",
+            "xxx",
+            "xxx"};
 
     private String[] unitTitleString = new String[]{
             "Unit1 Computer Users",
